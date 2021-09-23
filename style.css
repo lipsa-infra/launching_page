@@ -134,3 +134,18 @@ p{
     font-size: 18px;
     font-weight: 300;
 }
+
+.card {
+    width: 20rem;
+    height: 30rem;
+    border-radius: 2rem;
+}
+
+.btn {
+    border-radius: 10rem;
+}
+
+a, a:hover {
+    color: white;
+    text-decoration: none;
+}
