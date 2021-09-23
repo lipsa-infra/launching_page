@@ -46,7 +46,7 @@ div{
 
 p{
     font-family: 'Saira Semi Condensed';
-    font-size: 24px;
+    font-size: 1.5rem;
     margin-top : 70px;
 }
 
@@ -74,14 +74,15 @@ p{
 }
 
 .title{
-    font-size: 36px;
+    font-size: 3rem;
     margin-bottom: -30px;
-    margin-top : 50px;
+    margin-top : 20px;
 }
 
 .signature{
     float: right;
-    margin-top : -30px;
+    font-size: 2rem;
+    margin-top : 30px;
 }
 
 .team-container{
@@ -122,17 +123,21 @@ p{
 
 .member-pic{
     border-radius: 50%;
-    height: 150px;
+    height: 10rem;
 }
 
 .member-name{
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
 .member-info{
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 300;
+}
+
+.text-color-primary{
+    color : #3457D5;
 }
 
 .card {
