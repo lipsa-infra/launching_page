@@ -28,6 +28,29 @@ p {
     background-color: #03071f;
 }
 
+.bg-main {
+    background-image :linear-gradient( #03071f, #5A4FCF);
+}
+
+.bg-footer{
+    /* background-image :linear-gradient( #5A4FCF, #03071f); */
+    background-color: #222;
+
+}
+
+.bg-red-purple{
+    background-color: #F2003C;
+}
+
+.text-red-purple{
+    color : #F2003C;
+}
+
+.btn-padding{
+    padding-left : 36px;
+    padding-right : 36px;
+}
+
 .text-blue {
     color: #03071f;
 }
@@ -47,7 +70,8 @@ div{
 p{
     font-family: 'Saira Semi Condensed';
     font-size: 1.5rem;
-    margin-top : 70px;
+    margin-top : 50px;
+    text-align: justify;
 }
 
 .about-content{
@@ -68,7 +92,7 @@ p{
 
 .nav-bar{
     height : 80px;
-    background: #03071F;
+    background: #111;
     display: flex;
     align-items: center;
 }
@@ -76,7 +100,7 @@ p{
 .title{
     font-size: 3rem;
     margin-bottom: -30px;
-    margin-top : 20px;
+    margin-top : 50px;
 }
 
 .signature{
@@ -136,14 +160,23 @@ p{
     font-weight: 300;
 }
 
+.text-bold{
+    font-weight: bold;
+}
+
 .text-color-primary{
-    color : #3457D5;
+    color : #bf00ff;
+}
+
+.bg-color-primary{
+    background-color: #bf00ff;
 }
 
 .card {
     width: 20rem;
-    height: 30rem;
+    height: 28rem;
     border-radius: 2rem;
+
 }
 
 .btn {
@@ -154,3 +187,36 @@ a, a:hover {
     color: white;
     text-decoration: none;
 }
+
+.logo{
+    margin-left: 20%;
+}
+
+.nav-btn{
+    margin-right : 20%;
+}
+
+@media (max-width: 600px) {
+       
+    .card{
+        height: 22rem;
+
+    }
+
+    p{
+        margin-top: 20px;
+    }
+
+    .about-content{
+        width: 80%;
+    }
+
+    .logo{
+        margin-left: 10%;
+    }
+
+    .nav-btn{
+        margin-right: 10%;
+    }
+    
+  }
