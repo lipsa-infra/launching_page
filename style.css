@@ -71,7 +71,7 @@ p{
     font-family: 'Saira Semi Condensed';
     font-size: 1.5rem;
     margin-top : 50px;
-    text-align: justify;
+   
 }
 
 .about-content{
@@ -194,6 +194,10 @@ a, a:hover {
 
 .nav-btn{
     margin-right : 20%;
+}
+
+.about-p{
+    text-align: justify;
 }
 
 @media (max-width: 600px) {
